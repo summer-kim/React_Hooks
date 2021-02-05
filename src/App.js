@@ -1,9 +1,12 @@
 import './App.css';
-import UseEffect from './UseEffect';
+import UseEffect from './utils/UseEffect';
+import UsePutIn from './utils/UsePutIn';
+import UseTabCompo from './utils/UseTabCompo';
+
 function App() {
   return (
     <div className='App'>
-      <UseEffect />
+      <UseTabCompo />
     </div>
   );
 }
