@@ -1,12 +1,14 @@
 import './App.css';
-import UseEffect from './utils/UseEffect';
-import UsePutIn from './utils/UsePutIn';
+import UseEffectCompo from './utils/UseEffectCompo';
+import UsePutInCompo from './utils/UsePutInCompo';
 import UseTabCompo from './utils/UseTabCompo';
+import UseClickCompo from './utils/UseClickCompo';
+import UseConfirmCompo from './utils/UseConfirmCompo';
 
 function App() {
   return (
     <div className='App'>
-      <UseTabCompo />
+      <UseConfirmCompo />
     </div>
   );
 }
