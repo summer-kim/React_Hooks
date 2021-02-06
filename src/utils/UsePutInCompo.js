@@ -16,7 +16,7 @@ const usePutIn = (initialValue, validator = '') => {
   return { value, onChange };
 };
 
-const UsePutIn = () => {
+const UsePutInCompo = () => {
   const set = usePutIn('summer', (value) => !value.includes('@'));
   return (
     <div>
@@ -25,4 +25,4 @@ const UsePutIn = () => {
   );
 };
 
-export default UsePutIn;
+export default UsePutInCompo;

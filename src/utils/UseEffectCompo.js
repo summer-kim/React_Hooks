@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const UseEffect = () => {
+const UseEffectCompo = () => {
   const sayHello = () => {
     console.log('Hello');
   };
@@ -23,4 +23,4 @@ const UseEffect = () => {
   );
 };
 
-export default UseEffect;
+export default UseEffectCompo;
