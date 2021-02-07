@@ -4,11 +4,12 @@ import UsePutInCompo from './utils/UsePutInCompo';
 import UseTabCompo from './utils/UseTabCompo';
 import UseClickCompo from './utils/UseClickCompo';
 import UseConfirmCompo from './utils/UseConfirmCompo';
+import UseProtectCompo from './utils/UseProtectCompo';
 
 function App() {
   return (
     <div className='App'>
-      <UseConfirmCompo />
+      <UseProtectCompo />
     </div>
   );
 }
