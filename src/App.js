@@ -7,11 +7,12 @@ import UseConfirmCompo from './utils/UseConfirmCompo';
 import UseProtectCompo from './utils/UseProtectCompo';
 import UseBeforeLeaveCompo from './utils/UseBeforeLeaveCompo';
 import UseScrollCompo from './utils/UseScrollCompo';
+import UseFadeinCompo from './utils/UseFadeinCompo';
 
 function App() {
   return (
     <div className='App'>
-      <UseScrollCompo />
+      <UseFadeinCompo />
     </div>
   );
 }
