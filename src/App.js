@@ -6,11 +6,12 @@ import UseClickCompo from './utils/UseClickCompo';
 import UseConfirmCompo from './utils/UseConfirmCompo';
 import UseProtectCompo from './utils/UseProtectCompo';
 import UseBeforeLeaveCompo from './utils/UseBeforeLeaveCompo';
+import UseScrollCompo from './utils/UseScrollCompo';
 
 function App() {
   return (
     <div className='App'>
-      <UseBeforeLeaveCompo />
+      <UseScrollCompo />
     </div>
   );
 }
