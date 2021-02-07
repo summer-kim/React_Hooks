@@ -8,11 +8,12 @@ import UseProtectCompo from './utils/UseProtectCompo';
 import UseBeforeLeaveCompo from './utils/UseBeforeLeaveCompo';
 import UseScrollCompo from './utils/UseScrollCompo';
 import UseFadeinCompo from './utils/UseFadeinCompo';
+import UseOnlineCompo from './utils/UseOnlineCompo';
 
 function App() {
   return (
     <div className='App'>
-      <UseFadeinCompo />
+      <UseOnlineCompo />
     </div>
   );
 }
