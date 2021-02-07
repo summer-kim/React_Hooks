@@ -5,11 +5,12 @@ import UseTabCompo from './utils/UseTabCompo';
 import UseClickCompo from './utils/UseClickCompo';
 import UseConfirmCompo from './utils/UseConfirmCompo';
 import UseProtectCompo from './utils/UseProtectCompo';
+import UseBeforeLeaveCompo from './utils/UseBeforeLeaveCompo';
 
 function App() {
   return (
     <div className='App'>
-      <UseProtectCompo />
+      <UseBeforeLeaveCompo />
     </div>
   );
 }
